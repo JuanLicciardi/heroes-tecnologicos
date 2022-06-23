@@ -4,6 +4,10 @@ const app = express();
 const path = require ('path');
 const puerto = 3030;
 
+// Declaraciones estaticas
+app.use (express.static('public'));
+
+
 // Salida en pantalla de Buscador
 app.get ('/', (req,res) => res.sendFile(path.join(__dirname,'views', 'index.html')));
 app.get ('/babbage', (req,res) => res.sendFile(path.join(__dirname,'views', 'babbage.html')));
