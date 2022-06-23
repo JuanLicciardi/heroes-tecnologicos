@@ -1,0 +1,23 @@
+{
+  "name": "heroes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanLicciardi/heroes-tecnologicos.git"
+  },
+  "keywords": [],
+  "author": "Juan Eduardo Licciardi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanLicciardi/heroes-tecnologicos/issues"
+  },
+  "homepage": "https://github.com/JuanLicciardi/heroes-tecnologicos#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
